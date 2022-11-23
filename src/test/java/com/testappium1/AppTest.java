@@ -73,9 +73,8 @@ public class AppTest
 
         extent.attachReporter(htmlReporter);
         extent.setSystemInfo("Hostname", "LocalHost");
-        extent.setSystemInfo("OS", "Windows 10");
-        extent.setSystemInfo("Tester Name", "Saulex");
-        extent.setSystemInfo("Browser", "Chrome");
+        extent.setSystemInfo("OS", "Android");
+        extent.setSystemInfo("Tester Name", "Saulo Valdivia");        
     }
 
     @BeforeMethod
