@@ -1,0 +1,38 @@
+<suite name="Timeout Suite" time-out="360000">
+	<test name="Demo1">
+		<classes>
+			<class name="com.testappium1.AppTest">
+				<methods>
+					<include name="continueButtonShouldBeDisabledIfLegalPolicyNotAccepted" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Demo2">
+		<classes>
+			<class name="com.testappium1.AppTest">
+				<methods>
+					<include name="errorMessageShouldBeDisplayedWhenPasscodeDoesNotMatch" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Demo3">
+		<classes>
+			<class name="com.testappium1.AppTest">
+				<methods>
+					<include name="errorMessageShouldBeDisplayedWhenSecretPhraseDoesNotMatch" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Demo4">
+		<classes>
+			<class name="com.testappium1.AppTest">
+				<methods>
+					<include name="newWalletWizardShouldBeDisplayedWhenNewWalletSucess" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
